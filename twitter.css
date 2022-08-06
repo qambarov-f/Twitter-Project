@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.headings {
+margin-top: 220px;
+}
+h1 {
+    font-size: 70px;
+    font-weight: bold ;
+    }
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.google, .apple{
+    width: 250px ;
+    border-radius: 20px;
+    height: 30px;
+
+
+}
+#google {
+    margin-bottom: 10px;
+}
+.hover:hover {
+    background-color: aqua;
+}
+.aa::before{
+    display: inline-block;
+    color:grey;
+    width: 100px;
+    content: "";
+    border: 1px solid grey;
+}
+.aa::after{
+    display: inline-block;
+    color:grey;
+    width: 100px;
+    content: "";
+    border: 1px solid grey;
+    margin-left:6px ;
+}
