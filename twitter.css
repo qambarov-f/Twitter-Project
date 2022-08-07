@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .headings {
-margin-top: 220px;
+margin-top: 160px;
 }
 h1 {
     font-size: 70px;
@@ -13,33 +13,78 @@ h1 {
 h2 {
     font-size: 40px;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 30px;
 }
-.google, .apple{
-    width: 250px ;
+.google, .apple,.phone{
+    width: 290px ;
     border-radius: 20px;
-    height: 30px;
-
-
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: white;
 }
 #google {
     margin-bottom: 10px;
 }
 .hover:hover {
-    background-color: aqua;
+    background-color: #099a90;
 }
 .aa::before{
     display: inline-block;
     color:grey;
-    width: 100px;
+    width: 110px;
     content: "";
     border: 1px solid grey;
+    margin-left: 34px;
+    margin-top: 20px;
+
 }
 .aa::after{
     display: inline-block;
     color:grey;
-    width: 100px;
+    width: 120px;
     content: "";
     border: 1px solid grey;
-    margin-left:6px ;
+    margin-left:10px ;
+    margin-top: 20px;
+
+}
+.phone {
+    margin-top: 7px;
+    background-color: #45a7a0;
+    color: white;
+    margin-top: 10px ;
+    border: hidden;
+    font-weight: bold ;
+}
+.phone:hover{
+    background-color: #71d8d1;
+}
+.or{
+    display: inline;
+    margin-left: 10px;
+}
+.tag{
+    font-size: 11px;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+footer{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(129, 129, 129);
+
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.last {
+    text-align: center;
+    margin-top: 3px;
 }
