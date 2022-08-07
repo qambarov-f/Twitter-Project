@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 .headings {
-margin-top: 160px;
-}
+    margin-top: 120px;
+    margin-left: 20px;
+ }
 h1 {
     font-size: 70px;
     font-weight: bold ;
@@ -16,9 +17,9 @@ h2 {
     margin-top: 30px;
 }
 .google, .apple,.phone{
-    width: 290px ;
+    width: 340px ;
     border-radius: 20px;
-    height: 40px;
+    height: 45px;
     margin-left: 30px;
     margin-top: 10px;
     background-color: white;
@@ -32,17 +33,17 @@ h2 {
 .aa::before{
     display: inline-block;
     color:grey;
-    width: 110px;
+    width: 130px;
     content: "";
     border: 1px solid grey;
-    margin-left: 34px;
+    margin-left: 36px;
     margin-top: 20px;
 
 }
 .aa::after{
     display: inline-block;
     color:grey;
-    width: 120px;
+    width: 150px;
     content: "";
     border: 1px solid grey;
     margin-left:10px ;
@@ -73,7 +74,7 @@ footer{
     margin-top: 10px;
     margin-left: 5px;
 }
-a{
+.unda{
     text-decoration: none;
     margin-left: 10px;
     color: rgb(129, 129, 129);
@@ -87,4 +88,11 @@ a:hover{
 .last {
     text-align: center;
     margin-top: 3px;
+}
+a{
+    text-decoration: none;
+}
+h4{
+    margin-left: 30px;
+    font-weight: 800;
 }
