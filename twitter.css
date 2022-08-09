@@ -16,19 +16,26 @@ h2 {
     font-weight: bold;
     margin-top: 30px;
 }
-.google, .apple,.phone{
+.google, .apple,.phone,.sgn{
     width: 340px ;
     border-radius: 20px;
     height: 45px;
     margin-left: 30px;
     margin-top: 10px;
     background-color: white;
+    border-color: rgb(184, 184, 184);
 }
 #google {
     margin-bottom: 10px;
 }
-.hover:hover {
-    background-color: #099a90;
+.google:hover {
+    background-color: #edfaf9;
+}
+.sgn:hover {
+    background-color: #effcfb;
+}
+.apple:hover {
+    background-color: rgb(212, 209, 209);
 }
 .aa::before{
     display: inline-block;
@@ -52,7 +59,7 @@ h2 {
 }
 .phone {
     margin-top: 7px;
-    background-color: #45a7a0;
+    background-color: #6da0db;
     color: white;
     margin-top: 10px ;
     border: hidden;
@@ -60,6 +67,13 @@ h2 {
 }
 .phone:hover{
     background-color: #71d8d1;
+}
+.sgn{
+    color: #71d8d1;
+    background-color: white;
+    font-weight: 600;
+    font-size: large;
+    margin-top: 11px;
 }
 .or{
     display: inline;
@@ -78,6 +92,7 @@ footer{
     text-decoration: none;
     margin-left: 10px;
     color: rgb(129, 129, 129);
+    font-size: smaller;
 
     
 }
@@ -94,5 +109,9 @@ a{
 }
 h4{
     margin-left: 30px;
-    font-weight: 800;
+    font-weight: 500;
+    margin-top: 50px;
+}
+button{
+    border-style: solid;
 }
